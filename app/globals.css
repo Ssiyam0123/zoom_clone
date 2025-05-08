@@ -11,6 +11,42 @@
   }
 }
 
+
+
+
+
+.cl-userButtonPopoverActionButtonIcon {
+  color: white;
+}
+
+.cl-logoBox {
+  height: 40px;
+}
+.cl-dividerLine {
+  background: #252a41;
+  height: 2px;
+}
+
+.cl-socialButtonsIconButton {
+  border: 3px solid #565761;
+}
+
+.cl-internal-wkkub3 {
+  color: white;
+}
+.cl-userButtonPopoverActionButton {
+  color: white;
+}
+
+.bg-hero{
+  background: url('/images/hero-background.png');
+}
+
+.text-sky-1{
+  color: #C9DDFF;
+}
+
+
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
