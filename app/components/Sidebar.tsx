@@ -9,7 +9,7 @@ import React from "react";
 const Sidebar = () => {
   const pathName = usePathname();
   return (
-    <section className="sticky left-0 top-0 flex h-screen w-fit flex-col justify-between bg-dark-1 bg-black p-6 pt-28 text-white lg:w-[254px]">
+    <section className="hidden sm:block md:block lg:block sticky left-0 top-0  h-screen w-fit flex-col justify-between bg-dark-1 bg-black p-6 pt-28 text-white lg:w-[254px]">
       <div className="flex flex-col gap-6">
         {sidebarLinks.map((link) => {
           const isActive =

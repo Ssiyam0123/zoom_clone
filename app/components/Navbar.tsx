@@ -5,7 +5,7 @@ import MobileNav from './MobileNav'
 
 const Navbar = () => {
   return (
-    <nav className='flex-between fixed z-50 w-full bg-black px-6 lg:px-10 bg-dark-1'>
+    <nav className='flex-between fixed z-50 w-full bg-black px-6 lg:px-10 bg-dark-1 mt-7'>
       <Link href={'/'} className='flex items-center gap-1'>
         <Image src={'/icons/logo.svg'}
         width={32}
