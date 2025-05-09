@@ -40,11 +40,44 @@
 
 .bg-hero{
   background: url('/images/hero-background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .text-sky-1{
   color: #C9DDFF;
 }
+
+.color-dark-1 { color: #1C1F2E; }
+.color-dark-2 { color: #161925; }
+.color-dark-3 { color: #252A41; }
+.color-dark-4 { color: #1E2757; }
+
+.color-blue-1 { color: #0E78F9; }
+
+.color-sky-1 { color: #C9DDFF; }
+.color-sky-2 { color: #ECF0FF; }
+.color-sky-3 { color: #F5FCFF; }
+
+.color-orange-1 { color: #FF742E; }
+.color-purple-1 { color: #830EF9; }
+.color-yellow-1 { color: #F9A90E; }
+
+/* Background Colors */
+.bg-dark-1 { background-color: #1C1F2E; }
+.bg-dark-2 { background-color: #161925; }
+.bg-dark-3 { background-color: #252A41; }
+.bg-dark-4 { background-color: #1E2757; }
+
+.bg-blue-1 { background-color: #0E78F9; }
+
+.bg-sky-1 { background-color: #C9DDFF; }
+.bg-sky-2 { background-color: #ECF0FF; }
+.bg-sky-3 { background-color: #F5FCFF; }
+
+.bg-orange-1 { background-color: #FF742E; }
+.bg-purple-1 { background-color: #830EF9; }
+.bg-yellow-1 { background-color: #F9A90E; }
 
 
 @custom-variant dark (&:is(.dark *));
