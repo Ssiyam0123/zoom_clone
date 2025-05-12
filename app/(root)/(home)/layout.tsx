@@ -1,6 +1,15 @@
 import Navbar from "@/app/components/Navbar";
 import Sidebar from "@/app/components/Sidebar";
+import { Metadata } from "next";
 import React, { ReactNode } from "react";
+
+
+
+export const metadata: Metadata = {
+  title: 'YOOM',
+  description: 'A workspace for your team, powered by Stream Chat and Clerk.',
+};
+
 
 const HomeLayout = ({ children }: { children: ReactNode }) => {
   return (
