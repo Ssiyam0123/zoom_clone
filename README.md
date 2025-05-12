@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎥 Yoom – A Zoom Clone Built with Next.js
 
-## Getting Started
+🔗 **Live Site:** [zoom-clone-tawny-three.vercel.app](https://zoom-clone-tawny-three.vercel.app)
 
-First, run the development server:
+Yoom is a modern, sleek video calling app inspired by Zoom. Built with cutting-edge technologies and a clean UI, it supports real-time communication, user authentication, and dynamic meeting features.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Tech Stack & Dependencies
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+| Technology | Description |
+|-----------|-------------|
+| ![Next.js](https://img.shields.io/badge/Next.js-000?logo=next.js&logoColor=white) | Full-stack React Framework |
+| ![React](https://img.shields.io/badge/React-20232a?logo=react&logoColor=61dafb) | Component-based UI |
+| ![TypeScript](https://img.shields.io/badge/TypeScript-3178c6?logo=typescript&logoColor=white) | Static typing for JavaScript |
+| ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38bdf8?logo=tailwind-css&logoColor=white) | Utility-first CSS |
+| ![Clerk](https://img.shields.io/badge/Clerk-3B82F6?logo=clerk&logoColor=white) | Authentication and user management |
+| ![Stream](https://img.shields.io/badge/Stream-0c7aaf?logo=stream&logoColor=white) | Real-time video & messaging SDK |
+| ![Radix UI](https://img.shields.io/badge/Radix_UI-eaeaea?logoColor=black) | Unstyled accessible UI components |
+| ![Lucide](https://img.shields.io/badge/Lucide-000?logo=lucide&logoColor=white) | Beautiful, consistent icons |
+| ![Sonner](https://img.shields.io/badge/Sonner-2ecc71) | Modern toast notifications |
+| ![React Datepicker](https://img.shields.io/badge/React_Datepicker-f39c12) | Date & time input components |
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🧪 Features
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- 🔐 Clerk-powered user authentication
+- 📹 Real-time video calls using Stream Video SDK
+- 👥 Personal rooms and user-specific meetings
+- 🗓️ Schedule and manage upcoming meetings
+- 📁 View previous and recorded meetings
+- 🎨 Themed UI with dark/light support
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
